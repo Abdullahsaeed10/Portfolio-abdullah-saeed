@@ -9,7 +9,7 @@ collections:
   - name: "showcase"
     label: "Showcase"
     folder: "content/showcase"
-    create: false  # Set to false since it's a single file
+    create: true  # Set to false since it's a single file
     fields:
       - { label: "Enable", name: "enable", widget: "boolean" }
       - { label: "Title", name: "title", widget: "string" }
